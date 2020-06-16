@@ -1,0 +1,684 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="mobile-agent" content="format=html5; url=http://www.4399.com/flhtml5/6.htm"/>
+<meta http-equiv="Cache-Control" content="no-transform " />
+<script language="javascript">
+<!--
+function check_mobile(){var ua = navigator.userAgent;ua = ua ? ua.toLowerCase().replace(/-/g, "") : "";
+    if (ua.match(/(Android)/i)){location.href = "/flhtml5/6.htm";}
+	if (ua.match(/(U;)/i)){if (ua.match(/(Adr)/i)){location.href = "/flhtml5/6.htm";}}//UC Browser
+	if (ua.match(/(iPhone|iPod|iPad)/i)){location.href = "http://h.4399.com/wap/c6.htm";}
+	if (ua.match(/(U;)/i)){if (ua.match(/(iPh|iPd)/i)){location.href = "http://h.4399.com/wap/c6.htm";}}//UC Browser
+}
+check_mobile();
+//-->
+</script>
+<title>冒险小游戏,4399双人冒险小游戏,冒险类小游戏,4399小游戏</title>
+<meta name="keywords" content="冒险小游戏,4399小游戏">
+<meta name="DESCRIPTION" content="4399为您提供冒险小游戏,4399双人冒险小游戏,冒险类小游戏,冒险岛小游戏,冒险岛小游戏下载,经典冒险岛小游戏,冒险王小游戏,单人冒险小游戏等。">
+<link href="/css/fl2016_1.css" rel="stylesheet" type="text/css" />
+<script>var ndate = new Date();document.write('<link rel="stylesheet" href="http://ptlogin.3304399.net/resource/css/base.css?'+ndate.getFullYear()+(ndate.getMonth()+1)+ndate.getDate()+(ndate.getHours()<12?1:2)+'" type="text/css"/>')</script>
+<link rel="stylesheet" href="/resource8/style.css" type="text/css"/>
+<link rel="stylesheet" href="/css/s-head2.css" type="text/css"/>
+<script language="javascript">
+var smallscreencss = "";
+var bigScreenDefine = 144000000;
+var showLRlimit = 1130;//显示右侧漂浮的最大像素
+var winWidth = 0;
+function getScreen(){if(window.innerWidth){winWidth = window.innerWidth;}else if((document.body) && (document.body.clientWidth)){winWidth = document.body.clientWidth;}if(document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth){winWidth = document.documentElement.clientWidth;}return winWidth;}
+function createLink(cssURL,lnkid){var head = document.getElementsByTagName('head')[0];linkTag = null;linkTag = document.createElement('link');linkTag.setAttribute('id',(lnkid || 'dynamic-style'));linkTag.setAttribute('class',lnkid);linkTag.setAttribute('rel','stylesheet');linkTag.setAttribute('type','text/css');linkTag.href = cssURL;head.appendChild(linkTag);}
+if(getScreen()<=bigScreenDefine){createLink(smallscreencss,"minScreen");}
+var hasgetCNXH = 0;
+var hasgetPlayed = 0;
+var jsloadcomplate = 0;
+var ccookie = document.cookie;var index4399skin = 0;if(ccookie){var reg = /index4399skin=\d/g;var index4399skins = ccookie.match(reg);if(index4399skins){index4399skin = index4399skins[0].replace("index4399skin=","").replace(";","");}}
+var _skin = [["0","-","/css/index3/color0.css",""],["1","http://imga4.5054399.com/upload_pic/2016/5/28/4399_10530372629.jpg","/css/inner5/color2.css","http://imga1.5054399.com/upload_pic/2016/5/4/4399_15320984563.jpg"],["2","http://imga3.5054399.com/upload_pic/2016/5/28/4399_10531272800.jpg","/css/inner5/color3.css","http://imga2.5054399.com/upload_pic/2016/5/4/4399_15322381015.jpg"],["3","http://imga5.5054399.com/upload_pic/2016/5/28/4399_10522666489.jpg","/css/inner5/color4.css","http://imga5.5054399.com/upload_pic/2016/5/4/4399_15311402660.jpg"],["4","http://imga1.5054399.com/upload_pic/2016/5/28/4399_10533094204.jpg","/css/inner5/color5.css","http://imga3.5054399.com/upload_pic/2016/5/4/4399_15325140001.jpg"],["5","http://imga5.5054399.com/upload_pic/2016/5/28/4399_10524899454.jpg","/css/inner5/color2.css","http://imga.5054399.com/upload_pic/2016/5/4/4399_15320061813.jpg"],["6","http://imga3.5054399.com/upload_pic/2016/5/28/4399_10524037699.jpg","/css/inner5/color4.css","http://imga3.5054399.com/upload_pic/2016/5/4/4399_15314715413.jpg"]];for(a in _skin){if(_skin[a][0]==index4399skin){var cskincss = _skin[a][2];var cskinimg_small = _skin[a][1];var cskinimg_big = _skin[a][3];}}
+document.write('<link id="skincss" href="'+cskincss+'" rel="stylesheet" type="text/css" />');
+function tracking(e){e = e ? e : window.event;var s = e.srcElement ? e.srcElement : e.target;var a = s.tagName;var u = s.href ? s.href : s.src;var t = s.innerText ? s.innerText : s.textContent;if (a == "B"||a == "STRONG"){a = "A";u = s.parentNode.href;}if (a == "IMG"){t = u;u = s.parentNode.href;}if(a == "A" || a == "IMG"){try{new Image().src = "http://trace1.5054399.com/trace.js?addd="+a+"&uddd="+escape(u)+"&tddd="+t;}catch(ex){}}return true;}
+function tracead(f){try{new Image().src = "http://adtrace.5054399.com/click.js?from="+f;}catch(ex){}return true;}
+function showPlayed(num){if(num==1){if(hasgetPlayed == 0){if(jsloadcomplate==1){getPlayed();}else{if(num==1){document.getElementById("reading1").style.display = "block";}else{document.getElementById("reading1").style.display = "none";}window.setTimeout(function(){showPlayed(num);},500);}}document.getElementById("showplay1").style.display = "block";document.getElementById("showplay2").style.display = "block";document.getElementById("showplay1").className = 'played cur';}else{document.getElementById("showplay1").style.display = "block";document.getElementById("showplay2").style.display = "none";document.getElementById("reading1").style.display = "none";document.getElementById("showplay1").className = 'played';}}
+function showc(num){if(num==1){if(hasgetCNXH == 0){if(jsloadcomplate==1){getCNXH();}else{if(num==1){document.getElementById("reading2").style.display = "block";document.getElementById("notj").style.display = "none";}else{document.getElementById("reading2").style.display = "none";document.getElementById("notj").style.display = "block";}window.setTimeout(function(){showc(num);},500);}}document.getElementById("showc1").style.display = "block";document.getElementById("showc2").style.display = "block";document.getElementById("showc1").className = 'like cur';}else{document.getElementById("showc1").style.display = "block";document.getElementById("showc2").style.display = "none";document.getElementById("reading2").style.display = "none";document.getElementById("showc1").className = 'like';}}
+function getTop(e){var offset=e.offsetTop;if(e.offsetParent!=null) offset+=getTop(e.offsetParent);return offset;}
+function GoToBestPosition(controls,offsets){var objBestPosition = document.getElementById(controls);var intBestPosition = getTop(objBestPosition);window.scrollTo(0,intBestPosition-offsets);}
+</script>
+<script language="javascript" src="/jss/click_trace.js"></script><base target="_blank"></base>
+</head>
+<body id="skinbody" onmousedown="tracking(event);">
+<div class="skin-lk" id="defaultbglink">
+	</div>
+<div class="tbar-h">
+<div class="tbar">
+<div class="bre">
+<a href="/" class="fl"><img alt="小游戏" src="/images/fl2016/logo.png"></a>
+<div class="search">
+<form action="http://so2.4399.com/search/search.php" method="get" onsubmit="return checksearch(this)">
+<div class="fl">
+<input id="smart_input" onclick="document.charset='gb2312';chkSosmart()" value="搜索小游戏" name="k" autocomplete="off" class="s-tex">
+<div id="smart_arrow" style="height: 24px; left: 648px; top: 4px;">
+<div style="height: 24px;" class="hide"></div>
+</div>
+</div>
+<div class="fl"><input value="" class="s-btn" type="submit"></div>
+</form>
+</div>
+<div class="right-content">
+<div class="login">
+<a id="login_tologin" target="_blank" href="http://my.4399.com/account/login">登录</a>
+<a target="_blank" id="login_toregister" href="http://my.4399.com/account/login">注册</a>
+<a onmouseout="showlogineddiv(0);return false;" onmouseover="showlogineddiv(1);return false;" id="logined" href="" class="personal" style=""></a>
+</div>            
+<div onmouseout="showlogineddiv(0);return false;" onmouseover="showlogineddiv(1);return false;" id="logined2" class="login-rear" style=" display:none"></div>
+<div onmouseout="showPlayed(0);return false;" onmouseover="showPlayed(1);return false;" href="" id="showplay1" class="played" style="display: block;"><i class="ico1"></i>我玩过的<i class="ico3"></i></div>
+<em class="seg"></em>
+<div onmouseout="showPlayed(0);return false;" onmouseover="showPlayed(1);return false;" id="showplay2" class="p-hover" style=" display:none">
+<p id="showword" style="display: none;">暂时还没有游戏记录，试试下面的游戏吧</p>
+<p id="reading1" style="display: none;">数据读取中，请稍候...</p>
+<div id="tjgameplay"></div>
+<div class="top-pag">
+<div id="rel_pagplay"></div>
+<a class="for-btn" id="moredivplay" href="http://my.4399.com/shoucang/?m=PlayLog">更多</a>
+</div>
+</div>
+<div onmouseout="showc(0);return false;" onmouseover="showc(1);return false;" id="showc1" class="like" style="display: block;"><i class="ico2"></i>猜你喜欢<i class="ico3"></i></div><em class="seg"></em>
+<div onmouseout="showc(0);return false;" onmouseover="showc(1);return false;" id="showc2" class="l-hover" style=" display:none">
+<p id="notj">根据您的游戏记录，为您推荐以下游戏</p>
+<p id="reading2" style="display: none;">数据读取中，请稍候...</p>
+<div id="tjgame"></div>              
+<div class="top-pag">
+<div id="rel_pag"></div>
+<a class="for-btn" id="morediv" href="http://my.4399.com/shoucang/?m=Recommend">更多</a>
+</div>
+</div>
+<a id="chskin" onclick="return false;" target="_self" href="" class="skin"><i class="ico4"></i>换肤</a>
+</div>        
+</div>
+</div>
+</div>
+<div class="bre">
+    <div class="nav m10">
+        <div class="fl">
+            <a href="http://www.4399.com/">首页</a>
+			<a href="/flash_fl/2_1.htm" >动作</a>
+			<a href="/flash_fl/3_1.htm" >体育</a>
+			<a href="/flash_fl/5_1.htm" >益智</a>
+			<a href="/flash_fl/4_1.htm" >射击</a>
+			<a href="/flash_fl/6_1.htm" class='on'>冒险</a>
+			<a href="/flash_fl/7_1.htm" >棋牌</a>
+			<a href="/flash_fl/8_1.htm" >策略</a>
+			<a href="/flash_fl/12_1.htm" >休闲</a>
+			<a href="/special/195.htm" >女生</a>
+			<a href="/flash_fl/16_1.htm" >装扮</a>
+			<a href="/flash_fl/13_1.htm" >儿童</a>
+			<a href="/special/90.htm" >过关</a>
+			<a href="/special/1.htm" >双人</a>
+            <a href="http://www.4399dmw.com/donghua/">动画片</a>
+            <a href="http://www.3000.com/">闪艺互动</a>
+            <a href="http://www.4399.cn/">手机游戏</a>
+        </div>
+        <div class="outside">
+            <a href="/special/19.htm">网页游戏</a>
+            <a href="http://my.4399.com/">游戏吧</a>
+        </div>
+    </div>
+</div><div class="crumbs"><a class="fr btn" href="http://a.4399.cn/game-kid-6.html">玩冒险手游</a><em class="ico"></em><a href="http://www.4399.com/">4399小游戏</a>&gt;<a href="/flash_fl/6_1.htm">冒险小游戏</a></div>
+
+<div class="bre s1-box m15 cf">
+	<div class="s-rec">
+    	<div class="fun-box f-nb">
+        	<a href="/flash/tj.htm" class="tit">特别推荐</a>
+        </div>
+    	<div class="setlide">
+        	<ul class="setimgs">
+                				<li id="pics0"><a href="http://huodong2.4399.com/comm/flzxpc/?hdid=1"><img src="http://imga5.5054399.com/upload_pic/2020/6/12/4399_09103990025.jpg" alt="王者新英雄、传说皮肤免费领！"></a></li>
+								<li id="pics1"><a href="/flash/211166.htm"><img src="http://imga5.5054399.com/upload_pic/2020/6/11/4399_09561498066.jpg" alt="首充免费领，登录送神翼"></a></li>
+								<li id="pics2"><a href="http://huodong.4399.com/weekly/138.html"><img src="http://imga.5054399.com/upload_pic/2020/6/10/4399_15473246872.jpg" alt="4399周刊第138期"></a></li>
+				            </ul>
+            <span id="fpage1"></span>
+            <span id="fpage2"></span>
+            <div class="settit">
+                            	<a href="http://huodong2.4399.com/comm/flzxpc/?hdid=1" id="pica0">王者新英雄、传说皮肤免费领！</a>
+				            	<a href="/flash/211166.htm" id="pica1">首充免费领，登录送神翼</a>
+				            	<a href="http://huodong.4399.com/weekly/138.html" id="pica2">4399周刊第138期</a>
+				            </div>
+            <!--<div class="setload"></div>//-->
+            <div class="setbtn">
+            			<a  class="on" href="" onclick="return false;" onmouseover="setImg(0);return false;" id="picl0"></a>
+						<a  href="" onclick="return false;" onmouseover="setImg(1);return false;" id="picl1"></a>
+						<a  href="" onclick="return false;" onmouseover="setImg(2);return false;" id="picl2"></a>
+			            </div>
+        </div>
+    </div>
+    <div class="action-b">
+    	<div class="fun-box f-nb">
+        	<a href="/flash/weekgame.htm" class="tit">精品游戏</a>
+        </div>
+        <ul class="action">
+        				<li><a href="http://a.4399.cn/game-id-107763.html"><img src="http://imga1.5054399.com/upload_pic/2019/1/31/4399_14043479442.jpg">第五人格</a></li>
+						<li><a href="/flash/203658.htm"><img src="http://imga5.5054399.com/upload_pic/2020/1/31/4399_19030911437.jpg">冰娃与火娃5</a></li>
+						<li><a href="/flash/203005.htm"><img src="http://imga.5054399.com/upload_pic/2019/5/15/4399_11500793764.jpg">恐龙队冒险3</a></li>
+						<li><a href="http://news.4399.com/czymf/"><img src="http://imga5.5054399.com/upload_pic/2019/9/10/4399_16252694501.jpg">创造与魔法</a></li>
+						<li><a href="/flash/213381.htm"><img src="http://imga2.5054399.com/upload_pic/2020/6/4/4399_10111577801.jpg">外星捕手</a></li>
+						<li><a href="http://news.4399.com/aoqi/"><img src="http://imga3.5054399.com/upload_pic/2018/5/16/4399_15021596075.jpg">奥奇传说</a></li>
+						<li><a href="/flash/212322.htm"><img src="http://imga5.5054399.com/upload_pic/2020/4/15/4399_10292816794.jpg">蜡笔小新大闯关</a></li>
+						<li><a href="http://my.4399.com/yxdldl/"><img src="http://imga4.5054399.com/upload_pic/2019/5/7/4399_09441774716.jpg">斗罗大陆</a></li>
+			        </ul>
+    </div>
+</div>
+
+<div class="bre m15 cf">
+	<div class="fl-box">
+    	<div class="fun-box">
+        	<a href="/flash/" class="tit">近期热门游戏</a>
+            <a class="more" href="/flash/"></a>
+        </div>
+        <ul class="list cf">
+                          <li><a href="/flash/213072.htm"><img src="http://imga3.5054399.com/upload_pic/2020/5/11/4399_17090071483.jpg" alt="钢铁飞龙使命召唤">钢铁飞龙使命召唤</a></li>
+			              <li><a href="/flash/212880.htm"><img src="http://imga1.5054399.com/upload_pic/2020/4/30/4399_09521655673.jpg" alt="火柴人水果大陆历险2">火柴人水果大陆历险2</a></li>
+			              <li><a href="/flash/72238.htm"><img src="http://imga4.5054399.com/upload_pic/2019/4/9/4399_10534317154.jpg" alt="地震小恐龙修改版">地震小恐龙修改版</a></li>
+			              <li><a href="/flash/188229.htm"><img src="http://imga5.5054399.com/upload_pic/2017/5/24/4399_09545705968.jpg" alt="悲伤兔大冒险">悲伤兔大冒险</a></li>
+			              <li><a href="/flash/212227.htm"><img src="http://imga3.5054399.com/upload_pic/2020/3/31/4399_15112251926.jpg" alt="天空之城冒险H5">天空之城冒险H5</a></li>
+			              <li><a href="/flash/187108.htm"><img src="http://imga4.5054399.com/upload_pic/2017/4/11/4399_10582381699.jpg" alt="变身大冒险">变身大冒险</a></li>
+			              <li><a href="/flash/184693.htm"><img src="http://imga4.5054399.com/upload_pic/2017/1/23/4399_11390065683.jpg" alt="新奥特曼大决战">新奥特曼大决战</a></li>
+			              <li><a href="/flash/211598.htm"><img src="http://imga4.5054399.com/upload_pic/2020/3/4/4399_15010606160.jpg" alt="小红球大冒险2">小红球大冒险2</a></li>
+			              <li><a href="/flash/211205.htm"><img src="http://imga1.5054399.com/upload_pic/2020/2/14/4399_16553138004.jpg" alt="TFBOYS救小猫咪">TFBOYS救小猫咪</a></li>
+			              <li><a href="/flash/210711.htm"><img src="http://imga2.5054399.com/upload_pic/2020/1/10/4399_15342250960.jpg" alt="披萨小王子2">披萨小王子2</a></li>
+			              <li><a href="/flash/210004.htm"><img src="http://imga5.5054399.com/upload_pic/2019/12/6/4399_09585788088.jpg" alt="我的世界大冒险2">我的世界大冒险2</a></li>
+			              <li><a href="/flash/148673.htm"><img src="http://imga4.5054399.com/upload_pic/2019/10/10/4399_11050122419.jpg" alt="粑粑去哪儿">粑粑去哪儿</a></li>
+			              <li><a href="/flash/143872.htm"><img src="http://imga3.5054399.com/upload_pic/2019/9/19/4399_11104814143.jpg" alt="大头儿子小头爸爸2">大头儿子小头爸爸2</a></li>
+			              <li><a href="/flash/47931.htm"><img src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_09250759645.jpg" alt="勇者之路精灵物语速升版">勇者之路精灵物语速升版</a></li>
+			              <li><a href="/flash/199043.htm"><img src="http://imga4.5054399.com/upload_pic/2018/7/9/4399_17161754626.jpg" alt="小初音大冒险2">小初音大冒险2</a></li>
+			              <li><a href="/flash/58508.htm"><img src="http://imga4.5054399.com/upload_pic/2019/3/22/4399_15314390967.jpg" alt="猫里奥">猫里奥</a></li>
+			              <li><a href="/flash/117227.htm"><img src="http://imga3.5054399.com/upload_pic/2016/2/20/4399_16021693663.jpg" alt="粘液实验室2">粘液实验室2</a></li>
+			              <li><a href="/flash/184213.htm"><img src="http://imga4.5054399.com/upload_pic/2017/1/11/4399_10114140483.jpg" alt="冰火人亚马逊大冒险">冰火人亚马逊大冒险</a></li>
+			              <li><a href="/flash/43841.htm"><img src="http://imga2.5054399.com/upload_pic/2019/3/26/4399_16554656111.jpg" alt="勇者之路">勇者之路</a></li>
+			              <li><a href="/flash/201148.htm"><img src="http://imga4.5054399.com/upload_pic/2018/10/12/4399_14410555048.jpg" alt="蜡笔小新骑车7">蜡笔小新骑车7</a></li>
+			              <li><a href="/flash/203564.htm"><img src="http://imga5.5054399.com/upload_pic/2019/1/22/4399_16270636670.jpg" alt="天空之城冒险">天空之城冒险</a></li>
+			        </ul>
+    </div>
+    <div class="t-box">
+    	<div class="fun-box">
+			<a href="/special/good.htm" class="tit">热门冒险专题</a>
+            <a class="more" href="/special/good.htm"></a>
+        </div>
+        <ul class="topic cf">
+            			<li><a href="/special/172.htm"><img alt="中文精选" lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2018/5/10/4399_10515996284.jpg"><em>中文精选</em></a></li>
+						<li><a href="/special/90.htm"><img alt="闯关专题" lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/5/25/4399_20242399893.jpg"><em>闯关专题</em></a></li>
+						<li><a href="/special/122.htm"><img alt="僵尸专题" lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/5/25/4399_20251652719.jpg"><em>僵尸专题</em></a></li>
+						<li><a href="/special/56.htm"><img alt="冒险专题" lzimg="1" lz_src="http://imga.5054399.com/upload_pic/2016/5/25/4399_20274026904.jpg"><em>冒险专题</em></a></li>
+						<li><a href="/special/148.htm"><img alt="无敌版专题" lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/5/25/4399_20283373219.jpg"><em>无敌版专题</em></a></li>
+						<li><a href="/special/173.htm"><img alt="拼图" lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/12/16/4399_17464220779.jpg"><em>拼图</em></a></li>
+			        </ul>
+        <div class="top-cs ">
+				<a href="/special/1.htm" class="">双人</a>
+				<a href="/special/272.htm" class="c1">熊出没</a>
+				<a href="/special/225.htm" class="c2">三人</a>
+				</div>
+    </div>
+</div>
+<div class="bre m15 oh cf">
+	<div class="fl-box">
+        <div class="tab">
+			<a href="/flash_fl/6_1.htm" target="_self" class="on"><i></i>最新推荐</a>
+            <a href="/flash_fl/6_v_1.htm" target="_self"><i></i>最多人玩</a>
+            <a href="/flash_fl/6_c_1.htm" target="_self"><i></i>最新游戏</a>
+			            <a href="/flash_fl/6_h_1.htm" target="_self"><i></i>H5游戏</a>
+			        </div>
+	           <div class="classic">
+            <a href="" onclick="chglist();return false;" class="on" id="allspe">全部标签</a>
+            			<a href="" id="fcommend1" onclick="chglist(6,1,'commend');return false;">双人</a>
+            			<a href="" id="fcommend90" onclick="chglist(6,90,'commend');return false;">闯关</a>
+            			<a href="" id="fcommend134" onclick="chglist(6,134,'commend');return false;">奥特曼</a>
+            			<a href="" id="fcommend260" onclick="chglist(6,260,'commend');return false;">3D</a>
+                    </div>
+		        <ul id="classic" class="list cf">
+            <li><a href="http://my.4399.com/yxsw/"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/5/22/4399_15014727232.jpg" alt="4399神王"/>4399神王</a></li><li><a href="http://my.4399.com/yxjqfs/"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2020/3/31/4399_16280641349.jpg" alt="4399九曲封神"/>4399九曲封神</a></li><li><a href="http://news.4399.com/naikuai/"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2020/2/20/4399_17304957141.jpg" alt="4399奶块"/>4399奶块</a></li><li><a href="http://my.4399.com/yxsmcs/"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2020/2/13/4399_14320624075.jpg" alt="4399神魔传说"/>4399神魔传说</a></li><li><a href="/flash/211040.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2020/2/6/4399_15250976550.jpg" alt="营救姥爷行动番外篇"/>营救姥爷行动番外篇</a></li><li><a href="/flash/209536.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2019/11/7/4399_16535762151.jpg" alt="冰球火球大拯救"/>冰球火球大拯救</a></li><li><a href="/flash/209432.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/11/1/4399_14371699902.jpg" alt="古堡历险记"/>古堡历险记</a></li><li><a href="/flash/209025.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/10/8/4399_15451632601.jpg" alt="机器人兄弟大冒险"/>机器人兄弟大冒险</a></li><li><a href="/flash/208032.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/8/13/4399_15321957747.jpg" alt="冰火兄弟大营救2"/>冰火兄弟大营救2</a></li><li><a href="/flash/208781.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2019/9/18/4399_14165269340.jpg" alt="奇怪的大冒险3"/>奇怪的大冒险3</a></li><li><a href="/flash/208778.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/9/18/4399_11151169972.jpg" alt="路易斯历险记"/>路易斯历险记</a></li><li><a href="/flash/208641.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2019/9/10/4399_15103506503.jpg" alt="奇怪的大冒险2"/>奇怪的大冒险2</a></li><li><a href="/flash/208573.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/9/6/4399_15324992646.jpg" alt="奇怪的大冒险"/>奇怪的大冒险</a></li><li><a href="/flash/207867.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/8/6/4399_17015093964.jpg" alt="冰火袋鼠兄弟"/>冰火袋鼠兄弟</a></li><li><a href="/flash/207822.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/8/5/4399_15390904131.jpg" alt="恐龙兄弟3"/>恐龙兄弟3</a></li><li><a href="http://news.4399.com/bbcs/"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/7/1/4399_09210331139.jpg" alt="4399不败传说"/>4399不败传说</a></li><li><a href="/flash/207690.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/7/31/4399_10083967832.jpg" alt="奥特曼变变变"/>奥特曼变变变</a></li><li><a href="http://news.4399.com/czymf/"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/5/17/4399_14481969387.jpg" alt="创造与魔法"/>创造与魔法</a></li><li><a href="/flash/151038.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/6/11/4399_15151299472.jpg" alt="造梦西游4"/>造梦西游4</a></li><li><a href="/flash/207530.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/7/23/4399_17444028437.jpg" alt="桃花侠外传2"/>桃花侠外传2</a></li><li><a href="/flash/207168.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/7/6/4399_15251925950.jpg" alt="超泡泡星球"/>超泡泡星球</a></li><li><a href="/flash/207267.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/7/11/4399_14091834890.jpg" alt="幻灵法师"/>幻灵法师</a></li><li><a href="/flash/206812.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/6/20/4399_11165641234.jpg" alt="冰火兄弟奇洞大冒险"/>冰火兄弟奇洞大冒险</a></li><li><a href="/flash/206138.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/5/21/4399_14521630324.jpg" alt="萌萌外星人大冒险"/>萌萌外星人大冒险</a></li><li><a href="/flash/205235.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/4/8/4399_17520306232.jpg" alt="奔跑吧兄弟7"/>奔跑吧兄弟7</a></li><li><a href="/flash/200926.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/9/29/4399_11164138394.jpg" alt="大头儿子小历险"/>大头儿子小历险</a></li><li><a href="http://news.4399.com/bzsjyx/"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/11/6/4399_14253973548.jpg" alt="4399宝藏世界"/>4399宝藏世界</a></li><li><a href="/flash/204422.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/3/5/4399_17215831426.jpg" alt="超豆娃勇士2"/>超豆娃勇士2</a></li><li><a href="/flash/204247.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/2/27/4399_11434786658.jpg" alt="闪电冰火人2"/>闪电冰火人2</a></li><li><a href="/flash/204420.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/3/5/4399_16575930144.jpg" alt="幻想乡大冒险4"/>幻想乡大冒险4</a></li><li><a href="/flash/204044.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2019/2/19/4399_09280951080.jpg" alt="泡泡星球"/>泡泡星球</a></li><li><a href="/flash/203515.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/2/19/4399_15564798858.jpg" alt="小猪阿虎水果大陆历险记"/>小猪阿虎水果大陆历险记</a></li><li><a href="/flash/203649.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2019/1/25/4399_11251605972.jpg" alt="桃花侠外传"/>桃花侠外传</a></li><li><a href="/flash/202499.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2019/2/21/4399_17144213461.jpg" alt="萌战前线"/>萌战前线</a></li><li><a href="/flash/203166.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2019/1/4/4399_16053354862.jpg" alt="丛林小子"/>丛林小子</a></li><li><a href="/flash/202793.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2018/12/20/4399_16530571654.jpg" alt="电玩小子大作战"/>电玩小子大作战</a></li><li><a href="/flash/202401.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/12/6/4399_11104414632.jpg" alt="奥特曼大作战2"/>奥特曼大作战2</a></li><li><a href="http://my.4399.com/yxwdcq/"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/11/30/4399_14104492250.jpg" alt="4399武动苍穹"/>4399武动苍穹</a></li><li><a href="/flash/202090.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2018/11/21/4399_09263303392.jpg" alt="剑魁录"/>剑魁录</a></li><li><a href="/flash/201319.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/10/22/4399_10410626228.jpg" alt="妖精的尾巴大冒险2"/>妖精的尾巴大冒险2</a></li><li><a href="http://news.4399.com/mcsd/"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2019/4/10/4399_10532771999.jpg" alt="4399萌宠时代"/>4399萌宠时代</a></li><li><a href="/flash/201040.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2018/10/8/4399_16182317711.jpg" alt="逃离异空间"/>逃离异空间</a></li><li><a href="/flash/200913.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2018/9/29/4399_10080230661.jpg" alt="袋鼠兄弟3"/>袋鼠兄弟3</a></li><li><a href="/flash/200817.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2018/9/25/4399_17024166352.jpg" alt="超黄金铠甲2"/>超黄金铠甲2</a></li><li><a href="/flash/200653.htm"><img  lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2018/9/18/4399_14002977192.jpg" alt="超豆娃勇士"/>超豆娃勇士</a></li><li><a href="/flash/199601.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/8/2/4399_15363496588.jpg" alt="超黄金铠甲"/>超黄金铠甲</a></li><li><a href="/flash/199409.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/7/25/4399_19214929964.jpg" alt="奔跑吧兄弟大冒险3"/>奔跑吧兄弟大冒险3</a></li><li><a href="/flash/198950.htm"><img  lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2018/7/5/4399_09363314922.jpg" alt="超奥特曼格斗"/>超奥特曼格斗</a></li><li><a href="/flash/199559.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/8/1/4399_13552037787.jpg" alt="奥特曼大作战"/>奥特曼大作战</a></li><li><a href="/flash/199209.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/7/17/4399_11395288911.jpg" alt="超西游记2"/>超西游记2</a></li><li><a href="/flash/199316.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/7/21/4399_14252221530.jpg" alt="超萌大战"/>超萌大战</a></li><li><a href="/flash/199292.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2018/7/20/4399_14032932394.jpg" alt="方块世界冒险"/>方块世界冒险</a></li><li><a href="/flash/198937.htm"><img  lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2018/7/4/4399_15362831088.jpg" alt="豆娃勇士3"/>豆娃勇士3</a></li><li><a href="/flash/199009.htm"><img  lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/7/7/4399_14392854491.jpg" alt="荣耀之剑中文版"/>荣耀之剑中文版</a></li><li><a href="/flash/198911.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/7/3/4399_14172537421.jpg" alt="幽灵勇士中文版"/>幽灵勇士中文版</a></li><li><a href="/flash/198381.htm"><img  lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/6/11/4399_11413722279.jpg" alt="英雄之剑2"/>英雄之剑2</a></li>        </ul>
+		<ul class="list cf" id="classic_other" style="display:none;"></ul>
+        <div class="pag" id="pagg">
+		<a class="on">1</a><a href="/flash_fl/6_2.htm" target=_self>2</a><a href="/flash_fl/6_3.htm" target=_self>3</a><a href="/flash_fl/6_4.htm" target=_self>4</a><a href="/flash_fl/6_5.htm" target=_self>5</a><a href="/flash_fl/6_6.htm" target=_self>6</a><a href="/flash_fl/6_7.htm" target=_self>7</a><a href="/flash_fl/6_8.htm" target=_self>8</a><a href="/flash_fl/6_9.htm" target=_self>9</a><a href="/flash_fl/6_10.htm" target=_self>10</a><em>..</em><a href="/flash_fl/6_137.htm" target=_self>137</a><a class="w1" href="/flash_fl/6_2.htm" target=_self>下一页</a>		</div>
+	</div>
+    <div class="t-box">
+    	<div class="fun-box">
+        	<span class="tit">排行榜</span>
+            <div class="t2 cf">
+            	<a href="/top/" id="monthtab" onmouseover="chgph(2);return false;" class="on">月</a>
+                <a href="/top/" id="totaltab" onmouseover="chgph(1);return false;">总</a>                
+            </div>
+        </div>
+    	<ul class="top" id="totalph" style="display:none;">
+			        	<li class="hover totalbig" id="tot_f_1">
+				<em class="c1">1</em>
+				<a class="img" href="http://my.4399.com/yxsw/"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/5/22/4399_15014727232.jpg" alt="4399神王"></a>
+				<a class="tex" href="http://my.4399.com/yxsw/">4399神王</a>
+				<a class="play" href="http://my.4399.com/yxsw/">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_1" onmouseover="showtotalBig(1);return false;" style='display:none;'><em class="c1">1</em><a href="http://my.4399.com/yxsw/">4399神王</a></li>
+			        	<li class="hover totalbig" id="tot_f_2" style='display:none;'>
+				<em class="c2">2</em>
+				<a class="img" href="/flash/151038.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/6/11/4399_15151299472.jpg" alt="造梦西游4"></a>
+				<a class="tex" href="/flash/151038.htm">造梦西游4</a>
+				<a class="play" href="/flash/151038.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_2" onmouseover="showtotalBig(2);return false;"><em class="c2">2</em><a href="/flash/151038.htm">造梦西游4</a></li>
+			        	<li class="hover totalbig" id="tot_f_3" style='display:none;'>
+				<em class="c3">3</em>
+				<a class="img" href="/flash/188528.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/6/9/4399_15185141549.jpg" alt="造梦西游5"></a>
+				<a class="tex" href="/flash/188528.htm">造梦西游5</a>
+				<a class="play" href="/flash/188528.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_3" onmouseover="showtotalBig(3);return false;"><em class="c3">3</em><a href="/flash/188528.htm">造梦西游5</a></li>
+			        	<li class="hover totalbig" id="tot_f_4" style='display:none;'>
+				<em>4</em>
+				<a class="img" href="/flash/47931.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_09250759645.jpg" alt="勇者之路精灵物语速升版"></a>
+				<a class="tex" href="/flash/47931.htm">勇者之路精灵物语速升版</a>
+				<a class="play" href="/flash/47931.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_4" onmouseover="showtotalBig(4);return false;"><em>4</em><a href="/flash/47931.htm">勇者之路精灵物语速升版</a></li>
+			        	<li class="hover totalbig" id="tot_f_5" style='display:none;'>
+				<em>5</em>
+				<a class="img" href="/flash/70215.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/20/4399_15420181678.jpg" alt="闪翼双星无敌版"></a>
+				<a class="tex" href="/flash/70215.htm">闪翼双星无敌版</a>
+				<a class="play" href="/flash/70215.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_5" onmouseover="showtotalBig(5);return false;"><em>5</em><a href="/flash/70215.htm">闪翼双星无敌版</a></li>
+			        	<li class="hover totalbig" id="tot_f_6" style='display:none;'>
+				<em>6</em>
+				<a class="img" href="/flash/60369.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/20/4399_16034287109.jpg" alt="王子公主回家记"></a>
+				<a class="tex" href="/flash/60369.htm">王子公主回家记</a>
+				<a class="play" href="/flash/60369.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_6" onmouseover="showtotalBig(6);return false;"><em>6</em><a href="/flash/60369.htm">王子公主回家记</a></li>
+			        	<li class="hover totalbig" id="tot_f_7" style='display:none;'>
+				<em>7</em>
+				<a class="img" href="/flash/117227.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/20/4399_16021693663.jpg" alt="粘液实验室2"></a>
+				<a class="tex" href="/flash/117227.htm">粘液实验室2</a>
+				<a class="play" href="/flash/117227.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_7" onmouseover="showtotalBig(7);return false;"><em>7</em><a href="/flash/117227.htm">粘液实验室2</a></li>
+			        	<li class="hover totalbig" id="tot_f_8" style='display:none;'>
+				<em>8</em>
+				<a class="img" href="/flash/56667.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/23/4399_17005630203.jpg" alt="屁王兄弟无敌版"></a>
+				<a class="tex" href="/flash/56667.htm">屁王兄弟无敌版</a>
+				<a class="play" href="/flash/56667.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_8" onmouseover="showtotalBig(8);return false;"><em>8</em><a href="/flash/56667.htm">屁王兄弟无敌版</a></li>
+			        	<li class="hover totalbig" id="tot_f_9" style='display:none;'>
+				<em>9</em>
+				<a class="img" href="/flash/68901.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/23/4399_16594804635.jpg" alt="双刃战士无敌版"></a>
+				<a class="tex" href="/flash/68901.htm">双刃战士无敌版</a>
+				<a class="play" href="/flash/68901.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_9" onmouseover="showtotalBig(9);return false;"><em>9</em><a href="/flash/68901.htm">双刃战士无敌版</a></li>
+			        	<li class="hover totalbig" id="tot_f_10" style='display:none;'>
+				<em>10</em>
+				<a class="img" href="/flash/87425.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/23/4399_16580765716.jpg" alt="钢铁蜘蛛侠"></a>
+				<a class="tex" href="/flash/87425.htm">钢铁蜘蛛侠</a>
+				<a class="play" href="/flash/87425.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_10" onmouseover="showtotalBig(10);return false;"><em>10</em><a href="/flash/87425.htm">钢铁蜘蛛侠</a></li>
+			        	<li class="hover totalbig" id="tot_f_11" style='display:none;'>
+				<em>11</em>
+				<a class="img" href="/flash/100942.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/23/4399_16570994733.jpg" alt="机器人攻城战无敌版"></a>
+				<a class="tex" href="/flash/100942.htm">机器人攻城战无敌版</a>
+				<a class="play" href="/flash/100942.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_11" onmouseover="showtotalBig(11);return false;"><em>11</em><a href="/flash/100942.htm">机器人攻城战无敌版</a></li>
+			        	<li class="hover totalbig" id="tot_f_12" style='display:none;'>
+				<em>12</em>
+				<a class="img" href="/flash/66373.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/2/23/4399_20260837647.jpg" alt="双箭头2无敌版"></a>
+				<a class="tex" href="/flash/66373.htm">双箭头2无敌版</a>
+				<a class="play" href="/flash/66373.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_12" onmouseover="showtotalBig(12);return false;"><em>12</em><a href="/flash/66373.htm">双箭头2无敌版</a></li>
+			        	<li class="hover totalbig" id="tot_f_13" style='display:none;'>
+				<em>13</em>
+				<a class="img" href="/flash/45046.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_14090501892.jpg" alt="勇者之路双人速升版"></a>
+				<a class="tex" href="/flash/45046.htm">勇者之路双人速升版</a>
+				<a class="play" href="/flash/45046.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_13" onmouseover="showtotalBig(13);return false;"><em>13</em><a href="/flash/45046.htm">勇者之路双人速升版</a></li>
+			        	<li class="hover totalbig" id="tot_f_14" style='display:none;'>
+				<em>14</em>
+				<a class="img" href="/flash/64131.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2012/3/12/4399_19215875281.jpg" alt="勇者之路2加强版"></a>
+				<a class="tex" href="/flash/64131.htm">勇者之路2加强版</a>
+				<a class="play" href="/flash/64131.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_14" onmouseover="showtotalBig(14);return false;"><em>14</em><a href="/flash/64131.htm">勇者之路2加强版</a></li>
+			        	<li class="hover totalbig" id="tot_f_15" style='display:none;'>
+				<em>15</em>
+				<a class="img" href="/flash/143872.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/9/19/4399_11104814143.jpg" alt="大头儿子小头爸爸2"></a>
+				<a class="tex" href="/flash/143872.htm">大头儿子小头爸爸2</a>
+				<a class="play" href="/flash/143872.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_15" onmouseover="showtotalBig(15);return false;"><em>15</em><a href="/flash/143872.htm">大头儿子小头爸爸2</a></li>
+			        	<li class="hover totalbig" id="tot_f_16" style='display:none;'>
+				<em>16</em>
+				<a class="img" href="/flash/34736.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/23/4399_18475025028.jpg" alt="小怪物探险"></a>
+				<a class="tex" href="/flash/34736.htm">小怪物探险</a>
+				<a class="play" href="/flash/34736.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_16" onmouseover="showtotalBig(16);return false;"><em>16</em><a href="/flash/34736.htm">小怪物探险</a></li>
+			        	<li class="hover totalbig" id="tot_f_17" style='display:none;'>
+				<em>17</em>
+				<a class="img" href="/flash/74394.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/23/4399_20255017634.jpg" alt="大嘴怪冒险无敌版"></a>
+				<a class="tex" href="/flash/74394.htm">大嘴怪冒险无敌版</a>
+				<a class="play" href="/flash/74394.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_17" onmouseover="showtotalBig(17);return false;"><em>17</em><a href="/flash/74394.htm">大嘴怪冒险无敌版</a></li>
+			        	<li class="hover totalbig" id="tot_f_18" style='display:none;'>
+				<em>18</em>
+				<a class="img" href="/flash/43139.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/19/4399_15071153648.jpg" alt="冰火熊猫大冒险"></a>
+				<a class="tex" href="/flash/43139.htm">冰火熊猫大冒险</a>
+				<a class="play" href="/flash/43139.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_18" onmouseover="showtotalBig(18);return false;"><em>18</em><a href="/flash/43139.htm">冰火熊猫大冒险</a></li>
+			        	<li class="hover totalbig" id="tot_f_19" style='display:none;'>
+				<em>19</em>
+				<a class="img" href="/flash/115225.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2014/7/26/4399_16192154669.jpg" alt="机甲小子"></a>
+				<a class="tex" href="/flash/115225.htm">机甲小子</a>
+				<a class="play" href="/flash/115225.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_19" onmouseover="showtotalBig(19);return false;"><em>19</em><a href="/flash/115225.htm">机甲小子</a></li>
+			        	<li class="hover totalbig" id="tot_f_20" style='display:none;'>
+				<em>20</em>
+				<a class="img" href="/flash/184213.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2017/1/11/4399_10114140483.jpg" alt="冰火人亚马逊大冒险"></a>
+				<a class="tex" href="/flash/184213.htm">冰火人亚马逊大冒险</a>
+				<a class="play" href="/flash/184213.htm">开始游戏</a>
+			</li>
+			<li class="totalsmall" id="tot_s_20" onmouseover="showtotalBig(20);return false;"><em>20</em><a href="/flash/184213.htm">冰火人亚马逊大冒险</a></li>
+			        </ul>
+		<a id="totalmore" class="top-more" href="/top/" style="display:none;">更多</a>
+		<ul class="top" id="monthph">
+			        	<li class="hover monthbig" id="month_f_1">
+				<em class="c1">1</em>
+				<a class="img" href="http://my.4399.com/yxsw/"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/5/22/4399_15014727232.jpg" alt="4399神王"></a>
+				<a class="tex" href="http://my.4399.com/yxsw/">4399神王</a>
+				<a class="play" href="http://my.4399.com/yxsw/">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_1" onmouseover="showmonthBig(1);return false;" style='display:none;'><em class="c1">1</em><a href="http://my.4399.com/yxsw/">4399神王</a></li>
+			        	<li class="hover monthbig" id="month_f_2" style='display:none;'>
+				<em class="c2">2</em>
+				<a class="img" href="/flash/188528.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/6/9/4399_15185141549.jpg" alt="造梦西游5"></a>
+				<a class="tex" href="/flash/188528.htm">造梦西游5</a>
+				<a class="play" href="/flash/188528.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_2" onmouseover="showmonthBig(2);return false;"><em class="c2">2</em><a href="/flash/188528.htm">造梦西游5</a></li>
+			        	<li class="hover monthbig" id="month_f_3" style='display:none;'>
+				<em class="c3">3</em>
+				<a class="img" href="/flash/151038.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/6/11/4399_15151299472.jpg" alt="造梦西游4"></a>
+				<a class="tex" href="/flash/151038.htm">造梦西游4</a>
+				<a class="play" href="/flash/151038.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_3" onmouseover="showmonthBig(3);return false;"><em class="c3">3</em><a href="/flash/151038.htm">造梦西游4</a></li>
+			        	<li class="hover monthbig" id="month_f_4" style='display:none;'>
+				<em>4</em>
+				<a class="img" href="/flash/203658.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/s/203658.jpg" alt="冰娃与火娃5"></a>
+				<a class="tex" href="/flash/203658.htm">冰娃与火娃5</a>
+				<a class="play" href="/flash/203658.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_4" onmouseover="showmonthBig(4);return false;"><em>4</em><a href="/flash/203658.htm">冰娃与火娃5</a></li>
+			        	<li class="hover monthbig" id="month_f_5" style='display:none;'>
+				<em>5</em>
+				<a class="img" href="/flash/70215.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/20/4399_15420181678.jpg" alt="闪翼双星无敌版"></a>
+				<a class="tex" href="/flash/70215.htm">闪翼双星无敌版</a>
+				<a class="play" href="/flash/70215.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_5" onmouseover="showmonthBig(5);return false;"><em>5</em><a href="/flash/70215.htm">闪翼双星无敌版</a></li>
+			        	<li class="hover monthbig" id="month_f_6" style='display:none;'>
+				<em>6</em>
+				<a class="img" href="/flash/184213.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2017/1/11/4399_10114140483.jpg" alt="冰火人亚马逊大冒险"></a>
+				<a class="tex" href="/flash/184213.htm">冰火人亚马逊大冒险</a>
+				<a class="play" href="/flash/184213.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_6" onmouseover="showmonthBig(6);return false;"><em>6</em><a href="/flash/184213.htm">冰火人亚马逊大冒险</a></li>
+			        	<li class="hover monthbig" id="month_f_7" style='display:none;'>
+				<em>7</em>
+				<a class="img" href="/flash/47931.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_09250759645.jpg" alt="勇者之路精灵物语速升版"></a>
+				<a class="tex" href="/flash/47931.htm">勇者之路精灵物语速升版</a>
+				<a class="play" href="/flash/47931.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_7" onmouseover="showmonthBig(7);return false;"><em>7</em><a href="/flash/47931.htm">勇者之路精灵物语速升版</a></li>
+			        	<li class="hover monthbig" id="month_f_8" style='display:none;'>
+				<em>8</em>
+				<a class="img" href="/flash/58508.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/3/22/4399_15314390967.jpg" alt="猫里奥"></a>
+				<a class="tex" href="/flash/58508.htm">猫里奥</a>
+				<a class="play" href="/flash/58508.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_8" onmouseover="showmonthBig(8);return false;"><em>8</em><a href="/flash/58508.htm">猫里奥</a></li>
+			        	<li class="hover monthbig" id="month_f_9" style='display:none;'>
+				<em>9</em>
+				<a class="img" href="/flash/60369.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/20/4399_16034287109.jpg" alt="王子公主回家记"></a>
+				<a class="tex" href="/flash/60369.htm">王子公主回家记</a>
+				<a class="play" href="/flash/60369.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_9" onmouseover="showmonthBig(9);return false;"><em>9</em><a href="/flash/60369.htm">王子公主回家记</a></li>
+			        	<li class="hover monthbig" id="month_f_10" style='display:none;'>
+				<em>10</em>
+				<a class="img" href="/flash/200926.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2018/9/29/4399_11164138394.jpg" alt="大头儿子小历险"></a>
+				<a class="tex" href="/flash/200926.htm">大头儿子小历险</a>
+				<a class="play" href="/flash/200926.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_10" onmouseover="showmonthBig(10);return false;"><em>10</em><a href="/flash/200926.htm">大头儿子小历险</a></li>
+			        	<li class="hover monthbig" id="month_f_11" style='display:none;'>
+				<em>11</em>
+				<a class="img" href="/flash/117227.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/20/4399_16021693663.jpg" alt="粘液实验室2"></a>
+				<a class="tex" href="/flash/117227.htm">粘液实验室2</a>
+				<a class="play" href="/flash/117227.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_11" onmouseover="showmonthBig(11);return false;"><em>11</em><a href="/flash/117227.htm">粘液实验室2</a></li>
+			        	<li class="hover monthbig" id="month_f_12" style='display:none;'>
+				<em>12</em>
+				<a class="img" href="/flash/212227.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2020/3/31/4399_15112251926.jpg" alt="天空之城冒险H5"></a>
+				<a class="tex" href="/flash/212227.htm">天空之城冒险H5</a>
+				<a class="play" href="/flash/212227.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_12" onmouseover="showmonthBig(12);return false;"><em>12</em><a href="/flash/212227.htm">天空之城冒险H5</a></li>
+			        	<li class="hover monthbig" id="month_f_13" style='display:none;'>
+				<em>13</em>
+				<a class="img" href="/flash/163404.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/29/4399_17125920183.jpg" alt="火柴人吃豆豆"></a>
+				<a class="tex" href="/flash/163404.htm">火柴人吃豆豆</a>
+				<a class="play" href="/flash/163404.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_13" onmouseover="showmonthBig(13);return false;"><em>13</em><a href="/flash/163404.htm">火柴人吃豆豆</a></li>
+			        	<li class="hover monthbig" id="month_f_14" style='display:none;'>
+				<em>14</em>
+				<a class="img" href="/flash/203564.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2019/1/22/4399_16270636670.jpg" alt="天空之城冒险"></a>
+				<a class="tex" href="/flash/203564.htm">天空之城冒险</a>
+				<a class="play" href="/flash/203564.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_14" onmouseover="showmonthBig(14);return false;"><em>14</em><a href="/flash/203564.htm">天空之城冒险</a></li>
+			        	<li class="hover monthbig" id="month_f_15" style='display:none;'>
+				<em>15</em>
+				<a class="img" href="http://news.4399.com/czymf/"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/5/17/4399_14481969387.jpg" alt="创造与魔法"></a>
+				<a class="tex" href="http://news.4399.com/czymf/">创造与魔法</a>
+				<a class="play" href="http://news.4399.com/czymf/">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_15" onmouseover="showmonthBig(15);return false;"><em>15</em><a href="http://news.4399.com/czymf/">创造与魔法</a></li>
+			        	<li class="hover monthbig" id="month_f_16" style='display:none;'>
+				<em>16</em>
+				<a class="img" href="/flash/210711.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2020/1/10/4399_15342250960.jpg" alt="披萨小王子2"></a>
+				<a class="tex" href="/flash/210711.htm">披萨小王子2</a>
+				<a class="play" href="/flash/210711.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_16" onmouseover="showmonthBig(16);return false;"><em>16</em><a href="/flash/210711.htm">披萨小王子2</a></li>
+			        	<li class="hover monthbig" id="month_f_17" style='display:none;'>
+				<em>17</em>
+				<a class="img" href="http://news.4399.com/naikuai/"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2020/2/20/4399_17304957141.jpg" alt="4399奶块"></a>
+				<a class="tex" href="http://news.4399.com/naikuai/">4399奶块</a>
+				<a class="play" href="http://news.4399.com/naikuai/">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_17" onmouseover="showmonthBig(17);return false;"><em>17</em><a href="http://news.4399.com/naikuai/">4399奶块</a></li>
+			        	<li class="hover monthbig" id="month_f_18" style='display:none;'>
+				<em>18</em>
+				<a class="img" href="/flash/178700.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/8/18/4399_16360530277.jpg" alt="冰火人面兽"></a>
+				<a class="tex" href="/flash/178700.htm">冰火人面兽</a>
+				<a class="play" href="/flash/178700.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_18" onmouseover="showmonthBig(18);return false;"><em>18</em><a href="/flash/178700.htm">冰火人面兽</a></li>
+			        	<li class="hover monthbig" id="month_f_19" style='display:none;'>
+				<em>19</em>
+				<a class="img" href="/flash/212880.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2020/4/30/4399_09521655673.jpg" alt="火柴人水果大陆历险2"></a>
+				<a class="tex" href="/flash/212880.htm">火柴人水果大陆历险2</a>
+				<a class="play" href="/flash/212880.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_19" onmouseover="showmonthBig(19);return false;"><em>19</em><a href="/flash/212880.htm">火柴人水果大陆历险2</a></li>
+			        	<li class="hover monthbig" id="month_f_20" style='display:none;'>
+				<em>20</em>
+				<a class="img" href="/flash/171887.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/3/25/4399_16191301127.jpg" alt="小羊回家三人组"></a>
+				<a class="tex" href="/flash/171887.htm">小羊回家三人组</a>
+				<a class="play" href="/flash/171887.htm">开始游戏</a>
+			</li>
+			<li class="monthsmall" id="month_s_20" onmouseover="showmonthBig(20);return false;"><em>20</em><a href="/flash/171887.htm">小羊回家三人组</a></li>
+			        </ul>
+        <a id="monthmore" class="top-more" href="/top/">更多</a>
+    </div>
+</div>
+
+<div class="bre m15">
+	<div class="fun-box">
+        <span class="tit">全部冒险小游戏</span>
+        <div class="pag-all">
+						<a class="on" href="#">1</a><a href="/flash_fl/more_6_2.htm">2</a><a href="/flash_fl/more_6_3.htm">3</a><a href="/flash_fl/more_6_4.htm">4</a><a href="/flash_fl/more_6_5.htm">5</a><a href="/flash_fl/more_6_6.htm">6</a><em>..</em><a href="/flash_fl/more_6_15.htm" class="on">15</a><a href="/flash_fl/more_6_2.htm" class="do"></a>			        </div>
+    </div>
+    <ul id="classic" class="list affix cf">
+        <li><a href="http://my.4399.com/yxsw/"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/5/22/4399_15014727232.jpg" alt="4399神王" />4399神王</a></li><li><a href="/flash/151038.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/6/11/4399_15151299472.jpg" alt="造梦西游4" />造梦西游4</a></li><li><a href="/flash/188528.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2020/6/9/4399_15185141549.jpg" alt="造梦西游5" />造梦西游5</a></li><li><a href="/flash/47931.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_09250759645.jpg" alt="勇者之路精灵物语速升版" />勇者之路精灵物语速升版</a></li><li><a href="/flash/70215.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/20/4399_15420181678.jpg" alt="闪翼双星无敌版" />闪翼双星无敌版</a></li><li><a href="/flash/60369.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/20/4399_16034287109.jpg" alt="王子公主回家记" />王子公主回家记</a></li><li><a href="/flash/117227.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/20/4399_16021693663.jpg" alt="粘液实验室2" />粘液实验室2</a></li><li><a href="/flash/56667.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/23/4399_17005630203.jpg" alt="屁王兄弟无敌版" />屁王兄弟无敌版</a></li><li><a href="/flash/68901.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/23/4399_16594804635.jpg" alt="双刃战士无敌版" />双刃战士无敌版</a></li><li><a href="/flash/87425.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/23/4399_16580765716.jpg" alt="钢铁蜘蛛侠" />钢铁蜘蛛侠</a></li><li><a href="/flash/100942.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/23/4399_16570994733.jpg" alt="机器人攻城战无敌版" />机器人攻城战无敌版</a></li><li><a href="/flash/66373.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/2/23/4399_20260837647.jpg" alt="双箭头2无敌版" />双箭头2无敌版</a></li><li><a href="/flash/45046.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_14090501892.jpg" alt="勇者之路双人速升版" />勇者之路双人速升版</a></li><li><a href="/flash/64131.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2012/3/12/4399_19215875281.jpg" alt="勇者之路2加强版" />勇者之路2加强版</a></li><li><a href="/flash/143872.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/9/19/4399_11104814143.jpg" alt="大头儿子小头爸爸2" />大头儿子小头爸爸2</a></li><li><a href="/flash/34736.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/23/4399_18475025028.jpg" alt="小怪物探险" />小怪物探险</a></li><li><a href="/flash/74394.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/23/4399_20255017634.jpg" alt="大嘴怪冒险无敌版" />大嘴怪冒险无敌版</a></li><li><a href="/flash/43139.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/19/4399_15071153648.jpg" alt="冰火熊猫大冒险" />冰火熊猫大冒险</a></li><li><a href="/flash/115225.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2014/7/26/4399_16192154669.jpg" alt="机甲小子" />机甲小子</a></li><li><a href="/flash/184213.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2017/1/11/4399_10114140483.jpg" alt="冰火人亚马逊大冒险" />冰火人亚马逊大冒险</a></li><li><a href="/flash/94580.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/23/4399_19233870379.jpg" alt="小怪物探险3" />小怪物探险3</a></li><li><a href="/flash/163404.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/29/4399_17125920183.jpg" alt="火柴人吃豆豆" />火柴人吃豆豆</a></li><li><a href="/flash/31307.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/19/4399_15264030803.jpg" alt="冰火人冒险" />冰火人冒险</a></li><li><a href="/flash/37925.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/23/4399_20243553059.jpg" alt="朵拉摘星" />朵拉摘星</a></li><li><a href="/flash/37033.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/4/11/4399_11353277079.jpg" alt="冰火小人闯关" />冰火小人闯关</a></li><li><a href="/flash/49273.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2012/3/13/4399_09300460988.jpg" alt="植物大战僵尸2" />植物大战僵尸2</a></li><li><a href="/flash/130635.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/8/8/4399_11000180171.jpg" alt="爸爸去哪儿之原版大冒险" />爸爸去哪儿之原版大冒险</a></li><li><a href="/flash/117621.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2019/6/28/4399_13454024041.jpg" alt="老爹汉堡店历险记" />老爹汉堡店历险记</a></li><li><a href="/flash/80714.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/23/4399_19500754537.jpg" alt="冰火人冒险双人无敌版" />冰火人冒险双人无敌版</a></li><li><a href="/flash/120481.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_11412548295.jpg" alt="被尘封的故事" />被尘封的故事</a></li><li><a href="/flash/115756.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_09335935640.jpg" alt="美人鱼寻爱之旅" />美人鱼寻爱之旅</a></li><li><a href="/flash/1304.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2013/1/5/4399_14404459486.jpg" alt="XEVOZ变种战士" />XEVOZ变种战士</a></li><li><a href="/flash/8734.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/23/4399_20263585351.jpg" alt="海绵宝宝海底清洁工" />海绵宝宝海底清洁工</a></li><li><a href="/flash/45256.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/25/4399_14364607527.jpg" alt="火娃冰娃闯关2无敌版" />火娃冰娃闯关2无敌版</a></li><li><a href="/flash/116267.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2013/5/16/4399_11483168018.jpg" alt="鸡鸭兄弟" />鸡鸭兄弟</a></li><li><a href="/flash/165375.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/12/21/4399_15415265514.jpg" alt="屁王兄弟2" />屁王兄弟2</a></li><li><a href="/flash/75533.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2018/9/21/4399_15142403222.jpg" alt="贪玩三人组" />贪玩三人组</a></li><li><a href="/flash/51444.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2017/9/6/4399_15215241290.jpg" alt="小怪物探险2" />小怪物探险2</a></li><li><a href="/flash/117749.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/23/4399_19242853374.jpg" alt="老爹汉堡店历险记无敌版" />老爹汉堡店历险记无敌版</a></li><li><a href="/flash/15548.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/2/29/4399_16081787329.jpg" alt="铁头小子" />铁头小子</a></li><li><a href="/flash/94953.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/2/23/4399_19474730437.jpg" alt="王子公主回家记无敌版" />王子公主回家记无敌版</a></li><li><a href="/flash/103299.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2012/11/9/4399_16370932724.jpg" alt="五星战队之超级武士加强无敌版2" />五星战队之超级武士加强无敌版2</a></li><li><a href="/flash/122215.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2018/2/12/4399_16181333608.jpg" alt="小企鹅爱吃鱼2" />小企鹅爱吃鱼2</a></li><li><a href="/flash/110352.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/23/4399_19223198673.jpg" alt="鸭嘴兽的逆袭2" />鸭嘴兽的逆袭2</a></li><li><a href="/flash/89462.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2012/5/18/4399_10453009341.jpg" alt="胖胖猫山洞大闯关2" />胖胖猫山洞大闯关2</a></li><li><a href="/flash/35109.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2012/3/15/4399_16245088122.jpg" alt="朵拉魔法城堡探险" />朵拉魔法城堡探险</a></li><li><a href="/flash/43755.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/7272/9/43755.jpg" alt="火娃冰娃闯关无敌版" />火娃冰娃闯关无敌版</a></li><li><a href="/flash/34722.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/25/4399_14165832010.jpg" alt="火娃冰娃闯关修改版" />火娃冰娃闯关修改版</a></li><li><a href="/flash/185686.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2017/2/28/4399_10273773811.jpg" alt="火柴人吃豆豆2" />火柴人吃豆豆2</a></li><li><a href="/flash/178700.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/8/18/4399_16360530277.jpg" alt="冰火人面兽" />冰火人面兽</a></li><li><a href="/flash/86639.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/8/28/4399_11222127021.jpg" alt="雪怪双侠" />雪怪双侠</a></li><li><a href="/flash/80256.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2017/6/23/4399_15233762377.jpg" alt="彩虹兔2" />彩虹兔2</a></li><li><a href="/flash/41802.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/19/4399_16004347417.jpg" alt="森林冰火人3中文版" />森林冰火人3中文版</a></li><li><a href="/flash/126208.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/2/23/4399_19224984036.jpg" alt="模拟动物人生2" />模拟动物人生2</a></li><li><a href="/flash/144662.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/25/4399_09361160215.jpg" alt="小企鹅爱吃鱼3" />小企鹅爱吃鱼3</a></li><li><a href="/flash/203658.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/s/203658.jpg" alt="冰娃与火娃5" />冰娃与火娃5</a></li><li><a href="/flash/128915.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/4/18/4399_10515806953.jpg" alt="西游爱冒险" />西游爱冒险</a></li><li><a href="/flash/49231.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/7272/9/49231.jpg" alt="双猫战士2选关版" />双猫战士2选关版</a></li><li><a href="/flash/102654.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/7/18/4399_17371279028.jpg" alt="冰火双星回家" />冰火双星回家</a></li><li><a href="/flash/58508.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2019/3/22/4399_15314390967.jpg" alt="猫里奥" />猫里奥</a></li><li><a href="/flash/171887.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/3/25/4399_16191301127.jpg" alt="小羊回家三人组" />小羊回家三人组</a></li><li><a href="/flash/70126.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/18/4399_17182377524.jpg" alt="生化战士中文无敌版" />生化战士中文无敌版</a></li><li><a href="/flash/118550.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2014/1/17/4399_17543938311.jpg" alt="伟大航线" />伟大航线</a></li><li><a href="/flash/111798.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/2/29/4399_16202750741.jpg" alt="西游记悟空传2" />西游记悟空传2</a></li><li><a href="/flash/140171.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/23/4399_19480635101.jpg" alt="鸡鸭兄弟2" />鸡鸭兄弟2</a></li><li><a href="/flash/99810.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2012/9/29/4399_08244278677.jpg" alt="印第安冒险" />印第安冒险</a></li><li><a href="/flash/167438.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/11/29/4399_08384474297.jpg" alt="旋转忍者圣诞降临" />旋转忍者圣诞降临</a></li><li><a href="/flash/169849.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/25/4399_09434057854.jpg" alt="米老鼠和唐老鸭历险记" />米老鼠和唐老鸭历险记</a></li><li><a href="/flash/86392.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2019/1/11/4399_15032047204.jpg" alt="变色小恐龙" />变色小恐龙</a></li><li><a href="/flash/72313.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2012/3/12/4399_20570658432.jpg" alt="大雄拯救机器猫无敌版" />大雄拯救机器猫无敌版</a></li><li><a href="/flash/145593.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2016/2/23/4399_20241121595.jpg" alt="混球历险记3人版" />混球历险记3人版</a></li><li><a href="/flash/86797.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2012/4/10/4399_11254117479.jpg" alt="少年骇客异形救援" />少年骇客异形救援</a></li><li><a href="/flash/1232.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/7272/9/1232.jpg" alt="新怪物岛" />新怪物岛</a></li><li><a href="/flash/197736.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2019/s/197736.jpg" alt="萌斗妖宠" />萌斗妖宠</a></li><li><a href="/flash/119418.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2013/7/8/4399_09252052306.jpg" alt="五星战队之永不屈服2无敌版" />五星战队之永不屈服2无敌版</a></li><li><a href="/flash/90372.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2012/5/30/4399_17385901707.jpg" alt="小小奥特曼" />小小奥特曼</a></li><li><a href="/flash/92295.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2019/6/4/4399_14135790276.jpg" alt="泡泡兔3" />泡泡兔3</a></li><li><a href="/flash/152060.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2020/4/14/4399_17385943049.jpg" alt="蜡笔小新兄妹过新年" />蜡笔小新兄妹过新年</a></li><li><a href="/flash/104357.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2020/5/19/4399_10582247084.jpg" alt="外星兄妹2" />外星兄妹2</a></li><li><a href="/flash/38870.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2012/3/12/4399_20355404395.jpg" alt="双猫战士修改版" />双猫战士修改版</a></li><li><a href="/flash/100135.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2012/10/5/4399_10201708825.jpg" alt="朵拉野外探险" />朵拉野外探险</a></li><li><a href="/flash/138299.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2016/2/23/4399_20262270550.jpg" alt="冰娃火娃闯天关2" />冰娃火娃闯天关2</a></li><li><a href="/flash/153704.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2020/3/16/4399_17124767679.jpg" alt="复仇者联盟2" />复仇者联盟2</a></li><li><a href="/flash/52592.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2016/2/19/4399_16043421163.jpg" alt="闪翼双星" />闪翼双星</a></li><li><a href="/flash/169536.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/7/15/4399_10090908823.jpg" alt="模拟动物人生3" />模拟动物人生3</a></li><li><a href="/flash/45034.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/7272/9/45034.jpg" alt="勇者之路双人版" />勇者之路双人版</a></li><li><a href="/flash/20082.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/7272/3/20082.jpg" alt="森林冰火人" />森林冰火人</a></li><li><a href="/flash/141952.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2014/8/13/4399_14584797207.jpg" alt="大头儿子小头爸爸" />大头儿子小头爸爸</a></li><li><a href="/flash/47570.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2012/3/12/4399_20202192185.jpg" alt="小鸡冒险" />小鸡冒险</a></li><li><a href="/flash/160604.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2018/10/16/4399_16401129010.jpg" alt="战斗吧主公" />战斗吧主公</a></li><li><a href="/flash/71906.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/17/4399_17000302057.jpg" alt="地震小恐龙" />地震小恐龙</a></li><li><a href="/flash/134592.htm"><img lzimg="1" lz_src="http://imga3.5054399.com/upload_pic/2014/4/9/4399_10551704179.jpg" alt="冰火双刃" />冰火双刃</a></li><li><a href="/flash/149461.htm"><img lzimg="1" lz_src="http://imga2.5054399.com/upload_pic/2016/2/23/4399_18483143756.jpg" alt="萌少年酷跑大冒险" />萌少年酷跑大冒险</a></li><li><a href="/flash/85838.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2018/2/12/4399_16002328445.jpg" alt="迭戈雨林大冒险" />迭戈雨林大冒险</a></li><li><a href="/flash/44369.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/7272/5/44369.jpg" alt="坏蛋冰淇淋" />坏蛋冰淇淋</a></li><li><a href="/flash/1529.htm"><img lzimg="1" lz_src="http://imga5.5054399.com/upload_pic/2012/3/13/4399_14370678272.jpg" alt="追星公主" />追星公主</a></li><li><a href="/flash/24370.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/17/4399_17310018649.jpg" alt="电波小子闯关" />电波小子闯关</a></li><li><a href="/flash/155023.htm"><img lzimg="1" lz_src="http://imga4.5054399.com/upload_pic/2018/7/27/4399_16585804056.jpg" alt="大头儿子救妈妈" />大头儿子救妈妈</a></li><li><a href="/flash/162910.htm"><img lzimg="1" lz_src="http://imga1.5054399.com/upload_pic/2016/2/20/4399_14570368886.jpg" alt="哆啦A梦勇闯巨人岛" />哆啦A梦勇闯巨人岛</a></li>    </ul>
+		<div class="pag">
+	  <a class="on">1</a><a href="/flash_fl/more_6_2.htm">2</a><a href="/flash_fl/more_6_3.htm">3</a><a href="/flash_fl/more_6_4.htm">4</a><a href="/flash_fl/more_6_5.htm">5</a><a href="/flash_fl/more_6_6.htm">6</a><a href="/flash_fl/more_6_7.htm">7</a><a href="/flash_fl/more_6_8.htm">8</a><a href="/flash_fl/more_6_9.htm">9</a><a href="/flash_fl/more_6_10.htm">10</a><em>..</em><a href="/flash_fl/more_6_15.htm">15</a><a href="/flash_fl/more_6_2.htm" class="w1">下一页</a>	</div>
+	</div>
+<div class="bre m15 cf">
+	<div class="title">
+        <a href="/flash/game100.htm" class="a">推荐游戏</a>
+    </div>
+    <div class="oh">
+        <ul class="sec-1 m15 cf">
+            			<li><a href="http://www.4399.com/"><strong>小游戏</strong></a></li>
+						<li><a href="http://www.4399.cn/">4399手机游戏网</a></li>
+						<li><a href="http://news.4399.com/seer/jinglingdaquan/">赛尔号精灵大全</a></li>
+						<li><a href="http://news.4399.com/luoke/luokechongwu/">洛克王国宠物大全</a></li>
+						<li><a href="http://news.4399.com/smzhsy/">使命召唤手游</a></li>
+						<li><a href="http://news.4399.com/wzlm/">王者荣耀</a></li>
+						<li><a href="https://www.3839.com/a/111104.htm">代号生机下载</a></li>
+						<li><a href="http://app.4399.cn/">4399游戏盒</a></li>
+			        </ul>
+        <ul class="sec-2 cf">
+            			<li><a href="http://h.4399.com/"><strong>H5游戏</strong></a></li>
+						<li><a href="http://www.4399dmw.com/donghua/"><strong>动画片大全</strong></a></li>
+						<li><a href="http://news.4399.com/"><strong>游戏资讯</strong></a></li>
+						<li><a href="/special/1.htm"><strong>双人小游戏</strong></a></li>
+						<li><a href="http://web.4399.com/ddt/">4399弹弹堂</a></li>
+						<li><a href="/special/17.htm">海绵宝宝</a></li>
+						<li><a href="http://h.4399.com/app/">4399在线玩</a></li>
+						<li><a href="http://a.4399.cn">安卓游戏</a></li>
+						<li><a href="/special/286.htm">小马宝莉</a></li>
+						<li><a href="https://www.3839.com/a/113508.htm">英雄联盟手游</a></li>
+						<li><a href="http://www.3000.com/list/1860/1.html">宫廷小说</a></li>
+						<li><a href="/flash/">最新小游戏</a></li>
+						<li><a href="/special/7.htm">做饭小游戏</a></li>
+						<li><a href="http://www.fanxian.com">返现网</a></li>
+						<li><a href="/flash/136516.htm">消灭星星</a></li>
+						<li><a href="http://www.3387.com/">怡玩</a></li>
+						<li><a href="/special/8.htm">连连看</a></li>
+						<li><a href="/special/94.htm">化妆小游戏</a></li>
+						<li><a href="/special/172.htm">中文精选</a></li>
+						<li><a href="/flash/18012.htm">植物大战僵尸</a></li>
+						<li><a href="/special/242.htm">乐高</a></li>
+						<li><a href="http://a.4399.cn/game-id-121555.html">逃出怪物岛</a></li>
+						<li><a href="/special/134.htm">奥特曼</a></li>
+						<li><a href="/special/126.htm">大炮</a></li>
+						<li><a href="/special/34.htm">黄金矿工</a></li>
+						<li><a href="/special/239.htm">象棋</a></li>
+						<li><a href="http://www.3000.com/">闪艺</a></li>
+						<li><a href="/special/182.htm">朵拉</a></li>
+						<li><a href="/flash/776.htm">宠物连连看</a></li>
+						<li><a href="http://www.4399.com/">小游戏大全</a></li>
+						<li><a href="http://www.4399dmw.com/manhua/">漫画网</a></li>
+						<li><a href="http://www.3000.com/list/2564/1.html">女尊小说</a></li>
+						<li><a href="/special/143.htm">斗地主</a></li>
+						<li><a href="/special/66.htm">祖玛</a></li>
+						<li><a href="http://news.4399.cn/top/">手游排行榜</a></li>
+						<li><a href="/special/59.htm">塔防游戏</a></li>
+						<li><a href="/flash_fl/13_1.htm">儿童小游戏</a></li>
+						<li><a href="/special/5.htm">密室逃脱</a></li>
+						<li><a href="/special/131.htm">魂斗罗</a></li>
+						<li><a href="http://www.3000.com/work/86880.html">独家占有</a></li>
+						<li><a href="/special/225.htm">三人小游戏</a></li>
+						<li><a href="http://my.4399.com/yxmsdzls/">美食大战老鼠</a></li>
+						<li><a href="http://www.4399er.com/">儿歌</a></li>
+						<li><a href="https://www.3839.com/">好游快爆</a></li>
+						<li><a href="/flash/gamehw.htm">好玩的网页游戏</a></li>
+						<li><a href="http://my.4399.com/yxsgs/">三国杀</a></li>
+						<li><a href="http://news.4399.com/pubgsy/">和平精英</a></li>
+						<li><a href="/special/260.htm">3D游戏</a></li>
+						<li><a href="/special/212.htm">解谜小游戏</a></li>
+						<li><a href="/special/195.htm">女生小游戏大全</a></li>
+						<li><a href="/special/108.htm">汉堡蛋糕</a></li>
+						<li><a href="https://www.3839.com/a/101225.htm">使命召唤手游下载</a></li>
+						<li><a href="/special/148.htm">无敌版小游戏</a></li>
+						<li><a href="/special/219.htm">单人游戏</a></li>
+						<li><a href="http://news.4399.com/fzscjh/">方舟生存进化手机版</a></li>
+						<li><a href="/special/28.htm">赛车小游戏</a></li>
+			        </ul>
+    </div>
+</div>
+<div class="foot">
+	<div class="bre-m">
+       <script language="javascript">
+		var basic_game_info = [[78072,'造梦西游3','/flash/78072.htm#index0','http://imga3.5054399.com/upload_pic/2020/5/28/4399_17113807837.jpg'],[131667,'保卫萝卜挑战版2','/flash/131667.htm#index0','http://imga3.5054399.com/upload_pic/2016/2/25/4399_09351176342.jpg'],[118852,'生死狙击','http://ssjj.4399.com/#index0','http://imga3.5054399.com/upload_pic/2016/10/27/4399_15454748568.jpg'],[1382,'宠物连连看2.5版','/flash/1382.htm#index0','http://imga3.5054399.com/upload_pic/2016/9/22/4399_17493914511.jpg'],[110116,'拳皇wing1.85无敌版','/flash/110116.htm#index0','http://imga2.5054399.com/upload_pic/2016/2/25/4399_09330091389.jpg'],[3881,'Q版泡泡堂','/flash/3881.htm#index0','http://imga2.5054399.com/upload_pic/2016/2/25/4399_09220465358.jpg'],[128302,'消灭星星3电脑版','/flash/128302.htm#index0','http://imga3.5054399.com/upload_pic/2013/12/11/4399_08463247691.jpg'],[19063,'制作美味蛋糕','/flash/19063.htm#index0','http://imga4.5054399.com/upload_pic/2016/2/25/4399_09235221328.jpg'],[96275,'快乐美发师3','/flash/96275.htm#index0','http://imga1.5054399.com/upload_pic/2016/2/25/4399_09273734355.jpg'],[113790,'找你妹正式版','/flash/113790.htm#index0','http://imga1.5054399.com/upload_pic/2016/2/20/4399_16124255586.jpg'],[133630,'Q版泡泡堂7','/flash/133630.htm#index0','http://imga1.5054399.com/upload_pic/2016/2/25/4399_09351876854.jpg'],[128302,'消灭星星3电脑版','/flash/128302.htm#index0','http://imga3.5054399.com/upload_pic/2013/12/11/4399_08463247691.jpg'],[90302,'火柴人打羽毛球2','/flash/90302.htm#index0','http://imga3.5054399.com/upload_pic/2016/2/25/4399_09272483064.jpg'],[18012,'植物大战僵尸','/flash/18012.htm#index0','http://imga3.5054399.com/upload_pic/2016/2/18/4399_18432063237.jpg'],[130254,'节奏大师','/flash/130254.htm#index0','http://imga5.5054399.com/upload_pic/2016/2/24/4399_20052697338.jpg'],[124679,'泡泡堂卡丁车','/flash/124679.htm#index0','http://imga5.5054399.com/upload_pic/2016/2/23/4399_17063937456.jpg'],[73386,'快刀切水果3','/flash/73386.htm#index0','http://imga2.5054399.com/upload_pic/2016/2/25/4399_09264656496.jpg'],[17801,'宠物连连看3.1','/flash/17801.htm#index0','http://imga2.5054399.com/upload_pic/2016/2/22/4399_17213062473.jpg'],[130635,'爸爸去哪儿之原版大冒险','/flash/130635.htm#index0','http://imga1.5054399.com/upload_pic/2019/8/8/4399_11000180171.jpg'],[39526,'狙击小日本','/flash/39526.htm#index0','http://imga2.5054399.com/upload_pic/2016/2/25/4399_09241644555.jpg'],[117227,'粘液实验室2','/flash/117227.htm#index0','http://imga3.5054399.com/upload_pic/2016/2/20/4399_16021693663.jpg'],[54423,'4399打豆豆','/flash/54423.htm#index0','http://imga4.5054399.com/upload_pic/2016/2/22/4399_20085427468.jpg'],[10305,'双人旋转赛车','/flash/10305.htm#index0','http://imga1.5054399.com/upload_pic/2016/2/23/4399_16424729120.jpg'],[93398,'大鱼吃小鱼双人版','/flash/93398.htm#index0','http://imga4.5054399.com/upload_pic/2016/2/23/4399_20042692877.jpg']];
+		var basic_game_info_play = [[400,'这才叫唱歌','/flash/400.htm#history0','http://imga1.5054399.com/upload_pic/7272/1/400.jpg',1],[128302,'消灭星星3电脑版','/flash/128302.htm#history0','http://imga3.5054399.com/upload_pic/2013/12/11/4399_08463247691.jpg',1],[118852,'生死狙击','http://ssjj.4399.com/#history0','http://imga3.5054399.com/upload_pic/2016/10/27/4399_15454748568.jpg',1],[133774,'皇后成长计划2','/flash/133774.htm#history0','http://imga5.5054399.com/upload_pic/2016/2/24/4399_20165882370.jpg',1],[96275,'快乐美发师3','/flash/96275.htm#history0','http://imga1.5054399.com/upload_pic/2016/2/25/4399_09273734355.jpg',1],[20660,'森林冰火人中文版','/flash/20660.htm#history0','http://imga1.5054399.com/upload_pic/2016/2/22/4399_17341879193.jpg',1],[133630,'Q版泡泡堂7','/flash/133630.htm#history0','http://imga1.5054399.com/upload_pic/2016/2/25/4399_09351876854.jpg',1],[110116,'拳皇wing1.85无敌版','/flash/110116.htm#history0','http://imga2.5054399.com/upload_pic/2016/2/25/4399_09330091389.jpg',1],[131667,'保卫萝卜挑战版2','/flash/131667.htm#history0','http://imga3.5054399.com/upload_pic/2016/2/25/4399_09351176342.jpg',1],[112909,'神庙逃亡2','/flash/112909.htm#history0','http://imga5.5054399.com/upload_pic/2016/2/26/4399_10084980523.jpg',1],[136667,'萌少年酷跑电脑版','/flash/136667.htm#history0','http://imga3.5054399.com/upload_pic/2016/2/23/4399_20273241244.jpg',1],[21674,'二战前线2无敌版','/flash/21674.htm#history0','http://imga5.5054399.com/upload_pic/2016/2/29/4399_16164276015.jpg',1],[127319,'皇城突袭前线无敌版','/flash/127319.htm#history0','http://imga5.5054399.com/upload_pic/2016/2/24/4399_13142843236.jpg',1],[71403,'4399涂鸦画板','http://zuopin.4399.com/tuya/#history0','http://imga4.5054399.com/upload_pic/2016/2/29/4399_17484422351.jpg',1],[1382,'宠物连连看2.5版','/flash/1382.htm#history0','http://imga3.5054399.com/upload_pic/2016/9/22/4399_17493914511.jpg',1],[48399,'卡布西游','/flash/48399.htm#history0','http://imga5.5054399.com/upload_pic/2017/9/6/4399_16011281451.jpg',1],[93551,'小鳄鱼爱洗澡中文版','/flash/93551.htm#history0','http://imga2.5054399.com/upload_pic/2017/1/24/4399_10181217218.jpg',1],[73386,'快刀切水果3','/flash/73386.htm#history0','http://imga2.5054399.com/upload_pic/2016/2/25/4399_09264656496.jpg',1],[1602,'黄金矿工中文版','/flash/1602.htm#history0','http://imga3.5054399.com/upload_pic/2016/2/23/4399_20060138878.jpg',1],[93398,'大鱼吃小鱼双人版','/flash/93398.htm#history0','http://imga4.5054399.com/upload_pic/2016/2/23/4399_20042692877.jpg',1],[118852,'生死狙击','http://ssjj.4399.com/#history0','http://imga3.5054399.com/upload_pic/2016/10/27/4399_15454748568.jpg',1],[43728,'老爹汉堡店','/flash/43728.htm#history0','http://imga4.5054399.com/upload_pic/2016/2/17/4399_15514755682.jpg',1],[54423,'4399打豆豆','/flash/54423.htm#history0','http://imga4.5054399.com/upload_pic/2016/2/22/4399_20085427468.jpg',1],[18012,'植物大战僵尸','/flash/18012.htm#history0','http://imga3.5054399.com/upload_pic/2016/2/18/4399_18432063237.jpg',1],[17403,'青蛙祖玛','/flash/17403.htm#history0','http://imga4.5054399.com/upload_pic/2016/2/22/4399_20524038407.jpg',1],[58722,'霸气的蠕虫','/flash/58722.htm#history0','http://imga3.5054399.com/upload_pic/2016/2/25/4399_09254903832.jpg',1],[117252,'乐高游戏嘉年华3','/flash/117252.htm#history0','http://imga3.5054399.com/upload_pic/2016/2/25/4399_09341292954.jpg',1]];
+		</script>
+		<div class="copy">
+<div class="exp">作品版权归作者所有，如果侵犯了您的版权，请<a href="http://my.4399.com/joinus/contact.html">联系我们</a>，本站将在3个工作日内删除。<br><i>温馨提示：</i>抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活</div>
+<div class="line1"><a href="http://my.4399.com/joinus/index.html">关于本站</a>|<a href="http://my.4399.com/joinus/contact.html">联系本站</a>|<a href="/gameupload.htm">FLASH游戏发布</a>|<a href="http://www.4399api.com/">原创平台</a>|<a href="http://my.4399.com/joinus/zhaopin.html">招聘信息</a>|<a class="c1" href="/feedback.htm"><em></em>问题反馈</a>|<a href="http://e.weibo.com/my4399" rel="nofollow" class="wb"></a><a class="tx" rel="nofollow" href=""></a></div>
+<div class="copy-4399">
+<a rel="nofollow" href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/9F5113E34F5E4443A68F11E8A6E2685C"><i class="moc"></i>闽网文[2018]9590-427号</a>|<a href="/zs/chuban.html">新出网证(闽)字06号</a>|<a href="http://www.beian.miit.gov.cn/" target="_blank" rel="nofollow">ICP证闽B2-20040099</a>|<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302000081"><i class="ghs"></i>闽公网安备 35020302000081号</a>|<a href="/notice/banquan.htm">版权保护投诉指引</a><br>
+<a href="http://www.4399.com/zs/shengming.html" style="color:#f24445">关于不良游戏内容处置声明</a> 文明办网文明上网举报、纠纷处理及不良内容举报电话：4006334399(转6) |举报邮箱：jubao@4399.com&nbsp;|<a href="http://web.4399.com/jiazhang/">未成年人家长监护</a><br>
+Copyright &copy; 2004 - <script>var date=new Date;var year=date.getFullYear();document.write(year);</script> 4399.com All Rights Reserved. 四三九九网络股份有限公司&nbsp;版权所有</div>
+<div class="wechat-QR" style="display: none;"><img src="/images/i2016/QR.png">微信扫一扫<br>关注4399小游戏</div>
+</div>    </div>    
+</div>
+<div class="pop" id="skiner">
+<div class="pop-top cf">
+<div class="pop-tab">
+<div class="cutover">
+<a class="on" href="" id="skincommendtab" onclick="return false;" target="_self" onmouseover="chgskintype(1);return false;">推荐</a>
+<a href="" id="skinnewtab" onclick="return false;" target="_self" onmouseover="chgskintype(2);return false;">最新</a></div>
+<a class="pop-close" href="" target="_self" onclick="return cancelskin();"></a>
+</div>        
+</div>
+<ul class="skin-ul cf" id="skincommend"></ul>
+<ul class="skin-ul cf" id="skinnew"></ul>
+<div class="save"><a class="btn" target="_self" href="" onclick="return saveskin();">保存</a><a href="" target="_self" onclick="return cancelskin();">取消</a></div>
+</div>
+
+		<a onclick="window.scrollTo(0,0);return false;" href="#" target="_self" id="__top_ico" class="s-top"></a>
+	
+<script language="javascript" src="/jss/sosmart1.js"></script>
+<script>var ndate = new Date();document.write('<script type="text/javascript" src="http://ptlogin.3304399.net/resource/ucenter.js?'+ndate.getFullYear()+(ndate.getMonth()+1)+ndate.getDate()+(ndate.getHours()<12?1:2)+'" charset="utf-8"/><\/script>')</script>
+<script language="javascript" src="/jss/skiner26.js"></script>
+<script language="javascript" src="/jss/jquery-1.6.1.min.js"></script>
+<script language="javascript" src="/jss/newHeadjs2020.js"></script><script type="text/javascript" src="/js/globalSearchWord.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    if(typeof(possible_search_words)!="undefined"){ 
+        var sic = document.getElementById("smart_input"); 
+        function jsrnd(n,m){var c = m-n+1;return Math.floor(Math.random() * c + n);}
+        var jsrndbum = jsrnd(0,possible_search_words.length-1);
+        var defaultsearch = possible_search_words[jsrndbum];
+        if(defaultsearch){
+            sic.value = defaultsearch;
+            sic.onfocus = function(){if(sic.value == defaultsearch){sic.value='';}};
+            sic.onblur = function(){if(sic.value == ''){sic.value=defaultsearch;}};
+            sic.placeholder = defaultsearch;
+        }
+    }
+});
+</script><script language="javascript">var piccount = 3;var rnd = "1592216854";</script>
+<script language="javascript" src="/jss/fl_allinone2016.js"></script>
+<script language="javascript" src="/jss/lazyloading.js"></script>
+<script src="http://4399stat.5054399.com/js/click.js"></script>
+<script src='http://www.4399.com/js/4399stat.js' language='JavaScript' charset='gb2312'></script>
+<script type="text/javascript">$(".tx").mouseenter(function(){$(".wechat-QR").show();}).mouseleave(function(){$(".wechat-QR").hide();}).click(function(){return false;});</script>
+</body>
+</html>
